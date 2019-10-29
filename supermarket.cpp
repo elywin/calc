@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int c,d,qty1=0,tprice1,price[4]={2500,1000,1500,4500};
+    int c,d,qty4=0,e,qty1=0,f,qty2=0,qty3=0,g,price[4]={2500,1000,1500,4500},h,tprice1,tprice2,tprice3,tprice4;
     string a,b,y="y",p, arry[4]={"Toothpaste","shoe_polish","blueband","sugar"} ;
 	cout<<"\t\t\tWelcome to UCUSupermarket!!\n\n";
 	cout<<"------------------------------------------------------------------------------\n\n";
