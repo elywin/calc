@@ -12,7 +12,7 @@ int main(){
 	cout<<"Enter contact: ";
 	cin>>b;
 	cout<<"\n";
-
+do{
     cout<<"Select item to purchase\n\n";
 	cout<<"1."<<arry[0]<<"\n";
 	cout<<"2."<<arry[1]<<"\n";
@@ -103,7 +103,7 @@ int main(){
 	cout<<"Do you want to purchase another item? enter 1 to purchase and 2 to end purchase: ";
 	cin>>h;
 	cout<<"\n\n";
-
+}while(h==1);
     cout<<"\n\n";
 	cout<<"------------------------------------------------------------------------------\n\n";
 	cout<<"\t\t\tYour Reciept\n\n";
