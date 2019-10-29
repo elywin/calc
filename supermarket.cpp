@@ -104,6 +104,35 @@ int main(){
 	cin>>h;
 	cout<<"\n\n";
 
+    cout<<"\n\n";
+	cout<<"------------------------------------------------------------------------------\n\n";
+	cout<<"\t\t\tYour Reciept\n\n";
+	cout<<"Customer name: "<<a<<"\n"<<"Customer contact: "<<b<<"\n\n";
+	cout<<"------------------------------------------------------------------------------\n\n";
+		while(qty1>0){
+		
+			cout<<arry[0]<<"\t\t"<<qty1<<"\t\t"<<tprice1<<"\n";
+			break;
+	}
+	
+		while(qty2>0){
+		cout<<arry[1]<<"\t\t"<<qty2<<"\t\t"<<tprice2<<"\n";
+		break;
+	}
+	
+		while(qty3>0){
+		cout<<arry[2]<<"\t\t"<<qty3<<"\t\t"<<tprice3<<"\n";
+		break;
+	}
+	
+		while(qty4>0){
+		cout<<arry[3]<<"\t\t\t"<<qty4<<"\t\t"<<tprice4<<"\n";
+		break;
+	}
+	cout<<"------------------------------------------------------------------------------";
+	cout<<"\n\n";
+	cout<<"\t\tThank you for choosing UCUSupermarket!\n\n";
+	cout<<"------------------------------------------------------------------------------";
  return 0;
 
 }
