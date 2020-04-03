@@ -1,2 +1,2 @@
-# calc
-simple calculator c++
+# simple calculator C++
+language C++
